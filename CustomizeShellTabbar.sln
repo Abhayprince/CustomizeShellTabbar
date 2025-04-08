@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradientTabbar", "GradientTabbar\GradientTabbar.csproj", "{2733E418-A7A0-4561-861B-E692ABEEB4A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundedFloatingTabbar", "RoundedFloatingTabbar\RoundedFloatingTabbar.csproj", "{8EB8AA54-3B82-450D-87AD-27656DE4D27F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,12 @@ Global
 		{2733E418-A7A0-4561-861B-E692ABEEB4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2733E418-A7A0-4561-861B-E692ABEEB4A0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2733E418-A7A0-4561-861B-E692ABEEB4A0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8EB8AA54-3B82-450D-87AD-27656DE4D27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB8AA54-3B82-450D-87AD-27656DE4D27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB8AA54-3B82-450D-87AD-27656DE4D27F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8EB8AA54-3B82-450D-87AD-27656DE4D27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB8AA54-3B82-450D-87AD-27656DE4D27F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB8AA54-3B82-450D-87AD-27656DE4D27F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

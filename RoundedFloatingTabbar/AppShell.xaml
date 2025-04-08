@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="RoundedFloatingTabbar.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:RoundedFloatingTabbar"
+    Title="RoundedFloatingTabbar"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.TabBarBackgroundColor="Orange">
+
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Icon="dotnet_bot.png"
+            Route="MainPage" />
+        <ShellContent
+            Title="NewPage1"
+            ContentTemplate="{DataTemplate local:NewPage1}"
+            Icon="dotnet_bot.png"
+            Route="NewPage1" />
+        <ShellContent
+            Title="NewPage2"
+            ContentTemplate="{DataTemplate local:NewPage2}"
+            Icon="dotnet_bot.png"
+            Route="NewPage2" />
+    </TabBar>
+
+</Shell>

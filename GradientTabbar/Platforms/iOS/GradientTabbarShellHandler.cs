@@ -27,7 +27,7 @@ internal class GradientShellTabBarAppearanceTracker : ShellTabBarAppearanceTrack
 
         var gradientLayer = new CAGradientLayer
         {
-            Frame = controller.TabBar.Frame,
+            Frame = controller.TabBar.Bounds,
             Colors = [Colors.Red.ToCGColor(), Colors.Orange.ToCGColor()],
             StartPoint = new CoreGraphics.CGPoint(0, 0),
             EndPoint = new CoreGraphics.CGPoint(1, 0)
